@@ -3,4 +3,5 @@ body{
     margin: 0px;
     overflow: hidden; /* Hide scrollbars */
     cursor: wait;
+    background-color: #f2f2f2;
 }

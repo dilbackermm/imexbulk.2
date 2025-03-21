@@ -23,12 +23,12 @@ export default function index() {
                             <Image 
                             fill={true}
                             alt={"image"}
-                            src={`/images/background.jpg`}
+                            src={`/images/whitelogo.png`}
                             />
                         </div>
-                        <h2>Let's work</h2>
+                        
                     </span>
-                    <h2>together</h2>
+                   
                     <motion.div style={{x}} className={styles.buttonContainer}>
                         <Rounded  backgroundColor={"#334BD3"} className={styles.button}>
                             <p>Get in touch</p>
@@ -40,14 +40,14 @@ export default function index() {
                 </div>
                 <div className={styles.nav}>
                         <Rounded>
-                            <p>info@dennissnellenberg.com</p>
+                            <p>info@imexbulk.com</p>
                         </Rounded>
                         <Rounded>
-                            <p>+31 6 27 84 74 30</p>
+                            <p>+91 9738841191</p>
                         </Rounded>
                 </div>
                 <div className={styles.info}>
-                    <div>
+                    {/* <div>
                         <span>
                             <h3>Version</h3>
                             <p>2022 © Edition</p>
@@ -73,7 +73,7 @@ export default function index() {
                         <Magnetic>
                             <p>Linkedin</p>
                         </Magnetic>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </motion.div>
